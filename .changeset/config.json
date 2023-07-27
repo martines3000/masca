@@ -1,0 +1,18 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@2.3.1/schema.json",
+  "changelog": "@changesets/cli/changelog",
+  "commit": false,
+  "fixed": [],
+  "linked": [
+    [
+      "@blockchain-lab-um/masca-connector",
+      "@blockchain-lab-um/masca-types",
+      "@blockchain-lab-um/veramo-datamanager",
+      "@blockchain-lab-um/masca"
+    ]
+  ],
+  "access": "restricted",
+  "baseBranch": "develop",
+  "updateInternalDependencies": "patch",
+  "ignore": []
+}

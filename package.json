@@ -106,5 +106,8 @@
       "cross-fetch@3.1.8": "patches/cross-fetch@3.1.8.patch"
     },
     "allowNonAppliedPatches": true
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.26.2"
   }
 }
